@@ -1,0 +1,10 @@
+projects:
+  james-one:
+    path: /var/www/james-one
+    update_url: /opt/ai-updater/updates/james-one/latest.zip
+    service: james-one.service
+
+  ai-updater:
+    path: /opt/ai-updater
+    update_url: /opt/ai-updater/updates/ai-updater/latest.zip
+    service: ai-updater.service

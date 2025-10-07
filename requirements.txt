@@ -1,0 +1,4 @@
+PyYAML
+FastAPI
+Uvicorn
+httpx
