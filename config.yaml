@@ -8,3 +8,8 @@ projects:
     path: /opt/ai-updater
     update_url: /opt/ai-updater/updates/ai-updater/latest.zip
     service: ai-updater.service
+
+  ai-team:
+    path: /var/www/ai-team
+    update_url: /opt/ai-updater/updates/ai-team/latest.zip
+    service: ea.service      # Hauptdienst im Team; kannst später mehrere Services angeben
